@@ -1,4 +1,4 @@
-# Saga Template
+# Thunk Template
 ```text
 Template Version 0.0.1
 React Native Version 0.63.4
@@ -14,8 +14,8 @@ React Native Version 0.63.4
 
 ### Quick start
 
-* `git clone https://gitlab.com/SarathKannan1/saga-template.git`
-* `cd saga-template`
+* `git clone https://gitlab.com/SarathKannan1/thunk-template.git`
+* `cd thunk-template`
 * `npm install`
 
 ### Run on iOS
@@ -34,15 +34,4 @@ React Native Version 0.63.4
 
 ### Why this?
 
-Pre-configured Splash screen, App Icon, SQLiteDB, Saga-Redux, OneSignal Notification, React Navigation v5 and Some useful components
-
-### Known Issues
-  * [x] Screens Not configured.
-  * [x] Need to configure some packges.
-
-### ToDo
-  * [ ] Login screen.
-  * [ ] Register Screen.
-  * [ ] OTP screen
-  * [ ] Home screen
-  * [ ] Tabs and Navigators
+Pre-configured Splash screen, App Icon, SQLiteDB, thunk-Redux, OneSignal Notification, React Navigation v5 and Some useful components
