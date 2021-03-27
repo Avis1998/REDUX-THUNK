@@ -1,8 +1,9 @@
 import SplashScreen from 'react-native-splash-screen';
-import {HIDE_SPLASH_SCREEN} from './actions';
+import {HIDE_SPLASH_SCREEN,LOGIN_DATA_IS_LOADING} from './actions';
 
 const initialState = {
   isLoggedIn: false,
+  isLoading  :false,
 };
 
 export default function (state = initialState, action) {
@@ -15,7 +16,11 @@ export default function (state = initialState, action) {
         ...state,
         isLoggedIn: action.logState,
       };
-
+    case LOGIN_DATA_IS_LOADING:
+        return {
+          ...state,
+          isLoading: action.isLoading,
+        };
     default:
       return {
         ...state,

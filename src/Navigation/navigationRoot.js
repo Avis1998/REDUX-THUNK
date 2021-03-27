@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Login from '../container/LoginContainer';
+import NavMain from '../container/HomeContainer';
 // import Register from "../container/RegisterContainer";
 // import Otp from "../container/OtpContainer";
 // import MapPage from "../container/MapContainer";
@@ -19,9 +19,7 @@ Navigator = () => {
           headerShown: false,
         }}>
         <Stack.Screen name="Login" component={Login} />
-        {/* <Stack.Screen name="Register" component={Register} />
-                <Stack.Screen name="Otp" component={Otp} />
-                <Stack.Screen name="MapScreen" component={MapPage} /> */}
+        <Stack.Screen  name="Home" component={NavMain} />
       </Stack.Navigator>
     </NavigationContainer>
   );
